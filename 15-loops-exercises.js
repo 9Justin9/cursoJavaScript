@@ -24,7 +24,7 @@ for (let number of i) {
     console.log(number);
 };
 
-// 2. Crea un bucle que sume todos los numeros del 1 al 100 y muestre el resultado
+// 2. Crea un bucle que sume todos los numeros del 1 al 100 y muestre el resultado.
 console.log("FOR")
 let j = 0
 for (i = 1, j = 0; i <= 100; i++) {
@@ -87,20 +87,20 @@ for (var i of numeros) {
 } console.log(producto);
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5.
-console.log(`FOR`)
+console.log(`FOR`);
 for (let i = 1; i <= 10; i++) {
     console.log(i * 5);
 };
 
-console.log(`WHILE`)
-i = 1
+console.log(`WHILE`);
+i = 1;
 while (i <= 10) {
     console.log(i * 5);
     i++;
 };
 
-console.log(`DO WHILE`)
-i = 1
+console.log(`DO WHILE`);
+i = 1;
 do {
     console.log(i * 5);
     i++;
@@ -116,7 +116,7 @@ for (let value of myString) {
     myNewString = value + myNewString;
 } console.log(myNewString);
 
-// 9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci
+// 9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci.
 console.log(`WHILE`);
 i = 0;
 j = 1;
@@ -129,7 +129,7 @@ while (aux < 22) {
     console.log(aux);
 };
 
-// 10. Dado un array de numeros, usa un bucle para crear un nuevo array que contenga solo los numeros mayores de 10
+// 10. Dado un array de numeros, usa un bucle para crear un nuevo array que contenga solo los numeros mayores de 10.
 console.log(`FOR OF`);
 numeros = [1, 2, 3, 4, 5, 6, 6, 8, 12, 14, 16, 18, 20, 30, 100];
 var newNumeros = [];
