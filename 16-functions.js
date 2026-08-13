@@ -66,3 +66,33 @@ function multiplicar (a = 0, b = 0) {
 
 multiplicar (5, 10);
 console.log(multiplicar (5, 10));
+
+let multiplicación = multiplicar (5, 10);
+console.log (multiplicación);
+
+// Funciones de orden superior (función dentro de otra función)
+function superior (inferior, name) {
+    inferior (name);
+};
+
+superior (mySecondFunction, "Cotopaxi");
+
+// forEach
+let myArray = []
+myArray.push(69, "Niggadick", true, undefined)
+
+myArray.forEach((value) => console.log(value))
+
+let myMap = new Map ([
+    [1, "Hola"],
+    [2, "Adiós"],
+    [3, "Nubia"]
+]);
+
+myMap.forEach(function (value) {
+    console.log(value);
+});
+
+let mySet = new Set ([true, false, "Issac", "Ussac", 67, 67]);
+
+mySet.forEach((plo) => console.log(plo));
