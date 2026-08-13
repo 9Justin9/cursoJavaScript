@@ -17,3 +17,52 @@ while (i <= 3) {
     i++;
 };
 
+// Funciones anónimas
+
+const myThirdFunction = function (name) {
+    console.log(`I've been in the hills fucking dudes like ${name}.`);
+};
+
+myThirdFunction("Victor");
+
+// Arrow functions
+let myFourthFunction = (name) => {
+    console.log(`Does ${name} know?`);
+};
+
+myFourthFunction("this nigga");
+
+let myFifthFunction = (name) => console.log(`Does ${name} know that this is my fifth function?`);
+
+myFifthFunction("he");
+
+/*
+Si una arrow function solo ejecuta una línea de código,
+se puede escribir en una única línea.
+*/
+
+// Parámetros
+function mySum (a, b) {
+    console.log (a + b);
+};
+
+mySum ();
+mySum (5);
+mySum (5, 10);
+
+// Defaults
+function myDefSum (a = 0, b = 0) {
+    console.log (a + b);
+};
+
+myDefSum ();
+myDefSum (5);
+myDefSum (5, 10);
+
+// Retorno de valores
+function multiplicar (a = 0, b = 0) {
+    return (a * b);
+};
+
+multiplicar (5, 10);
+console.log(multiplicar (5, 10));
